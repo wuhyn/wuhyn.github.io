@@ -21,11 +21,23 @@ body {
   max-height:100%;
 }
 
+/*Fixed the nav brand colors here*/
 .navbar-brand{
-  color:white;
+  color:white !important;
   margin:20px;
   font-size: 25px;
   font-family: 'Baloo Bhaina', cursive;
+  outline:none;
+}
+
+.navbar-brand:hover{
+  color:black !important;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.navbar-brand:focus{
+  color:black;
 }
 
 .navbar li a{
@@ -48,6 +60,11 @@ body {
   font-size: 50px;
   margin-top: 55px;
   margin-bottom: 55px;
+}
+
+.welcome p{
+  font-family: 'Baloo Bhaina', cursive;
+  font-size: 25px;
 }
 
 .about-section{
@@ -75,6 +92,11 @@ body {
   font-size: 19px;
   margin: 2px 2px 20px 50px;
   color:white;
+}
+
+.nav-fonts:hover{
+  color:black;
+  border-radius: 20px;
 }
 
 .project-section{

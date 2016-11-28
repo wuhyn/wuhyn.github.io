@@ -6,6 +6,29 @@ $(document).ready(function(){
 	})
 });
 
+$(".navbar-brand").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".image").offset().top},
+        'slow');
+});
+
+$(".about-nav").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".about-section").offset().top},
+        'slow');
+});
+
+$(".project-nav").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".project-section").offset().top},
+        'slow');
+});
+
+$(".contact-nav").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".contact-section").offset().top},
+        'slow');
+});
 
 jQuery(document).ready(function($) {
   $(window).scroll(function() {
