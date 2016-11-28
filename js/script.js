@@ -35,12 +35,16 @@ jQuery(document).ready(function($) {
     var scrollPos = $(window).scrollTop(),
         navbar = $('.navbar');
 
-    if (scrollPos > 130) {
+    if (scrollPos > 130 && scrollPos < 500) {
       navbar.addClass('change-color');
 
     }
 
-    if(scrollPos > 1400){
+    else if(scrollPos > 500 && scrollPos < 1400){
+      navbar.addClass('change-color-mid');
+    }
+
+    else if(scrollPos > 1400){
       navbar.addClass('change-color-2');
     }
 

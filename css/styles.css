@@ -7,6 +7,10 @@
   transition: all 1s ease-in-out;
 }
 
+.navbar.change-color-mid {
+  background-image: black;
+}
+
 .navbar.change-color-2 {
   background-image: url("../img/cover-photo.jpg");
 }
@@ -50,8 +54,11 @@ body {
 }
 
 .icon-bar{
-
   background-color: white;
+}
+
+.navbar-toggle{
+  margin-top: 24px;
 }
 
 .welcome {
