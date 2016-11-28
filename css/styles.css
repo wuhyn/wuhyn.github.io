@@ -49,6 +49,11 @@ body {
   color:white;
 }
 
+.icon-bar{
+
+  background-color: white;
+}
+
 .welcome {
   padding: 125px 10px;
   text-align: center;
@@ -127,9 +132,9 @@ body {
 }
 
 .contact-text{
-  margin-left:150px;
-  margin-top:50px;
+  margin:50px;
   color: white;
+  font-size: 15px;
   font-family: 'Baloo Bhaina', cursive;
 }
 
