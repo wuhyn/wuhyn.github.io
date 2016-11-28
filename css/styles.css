@@ -17,6 +17,8 @@ body {
 
 .image{
   background-image: url("../img/cover-photo.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
   height: 700px;
   max-height:100%;
 }
