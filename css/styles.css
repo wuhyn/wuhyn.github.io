@@ -42,10 +42,6 @@ body {
   color:black;
 }
 
-.navbar-collapse{
-  background-color: #bdbdbd;
-}
-
 .navbar li a{
   margin:20px;
   font-size:18px;
