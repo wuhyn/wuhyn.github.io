@@ -37,7 +37,7 @@ jQuery(document).ready(function($) {
 
     if (scrollPos > 130 && scrollPos < 1300) {
       navbar.addClass('change-color');
-        navbar.removeClass('change-color-2');
+      navbar.removeClass('change-color-2');
     }
 
 

@@ -66,15 +66,22 @@ body {
 }
 
 .welcome h1{
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Baloo Bhaina', cursive;
   font-size: 50px;
-  margin-top: 55px;
+  margin-top: 35px;
   margin-bottom: 55px;
 }
 
 .welcome p{
   font-family: 'Baloo Bhaina', cursive;
   font-size: 25px;
+  margin-top: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: grey;
+  border-radius: 15px;
+  padding:10px;
+  opacity: 0.9;
 }
 
 .about-section{
@@ -90,7 +97,7 @@ body {
 }
 
 .about-section h4{
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Baloo Bhaina', cursive;
   font-size: 30px;
 }
 
@@ -101,12 +108,16 @@ body {
 .about-section li{
   font-size: 19px;
   margin: 2px 2px 20px 50px;
-  color:white;
+
 }
 
 .nav-fonts:hover{
   color:black;
   border-radius: 20px;
+}
+
+.nav-fonts-change{
+  color: green !important;
 }
 
 .project-section{
@@ -115,7 +126,7 @@ body {
 }
 
 .project-section h4{
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Baloo Bhaina', cursive;
   font-size: 30px;
   margin-top: 110px;
 }
@@ -126,7 +137,7 @@ body {
 }
 
 .contact-section h4{
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Baloo Bhaina', cursive;
   font-size: 30px;
   color: white;
   margin-top: 45px;
