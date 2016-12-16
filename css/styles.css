@@ -153,6 +153,7 @@ body {
 
 .contact-section{
   height: 300px;
+  width: 100%;
   background-image: url("../img/cover-photo.jpg");
 }
 
