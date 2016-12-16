@@ -121,7 +121,7 @@ body {
 }
 
 .project-section{
-  height: 550px;
+  height: 100%;
   margin:40px;
 }
 
@@ -129,6 +129,20 @@ body {
   font-family: 'Baloo Bhaina', cursive;
   font-size: 30px;
   margin-top: 110px;
+}
+
+/*Project preview code*/
+.project-preview-core{
+  margin-top: 35px;
+  margin-bottom: 100px;
+}
+
+.project-preview img{
+  height: 200px;
+  width: 350px;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
 }
 
 .contact-section{
