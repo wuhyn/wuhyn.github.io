@@ -4,3 +4,6 @@
 [submodule "odin-landing-page"]
 	path = odin-landing-page
 	url = git@github.com:wuhyn/odin-landing-page.git
+[submodule "odin-etch-a-sketch"]
+	path = odin-etch-a-sketch
+	url = git@github.com:wuhyn/odin-etch-a-sketch.git
