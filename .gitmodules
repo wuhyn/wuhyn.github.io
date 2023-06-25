@@ -7,3 +7,6 @@
 [submodule "odin-etch-a-sketch"]
 	path = odin-etch-a-sketch
 	url = git@github.com:wuhyn/odin-etch-a-sketch.git
+[submodule "odin-sign-up-form"]
+	path = odin-sign-up-form
+	url = git@github.com:wuhyn/odin-sign-up-form.git
