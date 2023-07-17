@@ -1,0 +1,39 @@
+nav {
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    height: 70px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    margin-top: 0.5em;
+}
+
+li {
+    float: left;
+    border-color: #111;
+    width: 140px;
+}
+
+li a {
+    display: block;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #F5F5F5;
+    border-radius: 2em;
+}
+
+li a:active {
+    color: black;
+}
